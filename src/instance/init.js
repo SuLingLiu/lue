@@ -15,4 +15,5 @@ exports._init = function (options) {
 
     // 渲染挂载
     this.$mount();
+    
 };

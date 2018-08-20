@@ -13,5 +13,5 @@ Lue.prototype = {
     ...require('./api/data'),
     observer: {...require('./observer/observer')}
 };
-console.log(Lue.prototype)
+
 module.exports = Lue;

@@ -124,7 +124,6 @@ Observer.prototype.notify = function (event, path, val) {
 Observer.prototype.emit = function (event, path, val) {
     this._cbs = this._cbs || {};
     let callbacks = this._cbs[event]
-
     if (!callbacks) return;
 
     callbacks = callbacks.slice(0);
